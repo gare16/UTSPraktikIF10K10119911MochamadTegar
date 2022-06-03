@@ -255,12 +255,15 @@
             android:id="@+id/cowo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Laki-Laki"/>
+            android:text="Laki-Laki"
+            android:textColor="@color/black"/>
+
         <RadioButton
             android:id="@+id/cewe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Perempuan"/>
+            android:text="Perempuan"
+            android:textColor="@color/black"/>
 
     </RadioGroup>
 
@@ -295,22 +298,26 @@
             android:id="@+id/ortu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Orangtua"/>
+            android:text="Orangtua"
+            android:textColor="@color/black"/>
         <RadioButton
             android:id="@+id/nikah"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Suami/Istri"/>
+            android:text="Suami/Istri"
+            android:textColor="@color/black"/>
         <RadioButton
             android:id="@+id/anak"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Anak"/>
+            android:text="Anak"
+            android:textColor="@color/black"/>
         <RadioButton
             android:id="@+id/lainnya"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kerabat Lainnya"/>
+            android:text="Kerabat Lainnya"
+            android:textColor="@color/black"/>
 
     </RadioGroup>
 
