@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:layout_margin="16dp"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -82,12 +83,14 @@
                 android:id="@+id/rapid"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rapid Antigen "/>
+                android:text="Rapid Antigen "
+                android:textColor="@color/black"/>
             <RadioButton
                 android:id="@+id/pcr"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="PCR"/>
+                android:text="PCR"
+                android:textColor="@color/black"/>
         </RadioGroup>
 
         <LinearLayout
@@ -101,6 +104,7 @@
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:text="Tanggal Terkonfirmasi"
+
                 android:layout_marginTop="32dp"/>
 
             <TextView
@@ -120,6 +124,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
             android:hint="Pilih Tanggal"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
             android:inputType="datetime"/>
 
 
@@ -146,6 +152,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="10dp"
         android:hint="Masukkan NIK"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:inputType="number"/>
 
         <LinearLayout
@@ -178,6 +186,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="10dp"
         android:hint="Masukkan Nama"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:inputType="textCapWords"/>
 
         <LinearLayout
@@ -210,6 +220,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="10dp"
         android:hint="Masukkan Tanggal Lahir"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
         android:inputType="date"/>
 
         <LinearLayout
